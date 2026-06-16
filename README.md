@@ -1,10 +1,10 @@
-# Looped MoE: Tied Expert Layers in Mixture-of-Experts Language Models
+# Tying the Loop: Tied Expert Layers in Mixture-of-Experts Language Models
 
 Reference implementation and experiments for **Expert Tying** - sharing expert FFN weights
 across consecutive transformer layers while keeping routers, attention, and normalization
 layer-specific. Tying experts in groups of `g` reduces expert parameters by g times.
 
-This repository reproduces the experiments in the paper across different MoE
+This repository reproduces the experiments in [the paper](https://arxiv.org/abs/2606.16825) across different MoE
 architectures (OLMoE, Qwen3-MoE, DeepSeekMoE) and the controlled component ablation.
 
 ## Repository contents

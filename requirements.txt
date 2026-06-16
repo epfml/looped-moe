@@ -1,0 +1,8 @@
+torch==2.12.0
+transformers==5.9.0
+tiktoken
+datasets
+wandb
+numpy
+tqdm
+lm-eval    # must pull newest directly from    uv pip install git+https://github.com/EleutherAI/lm-evaluation-harness.git
